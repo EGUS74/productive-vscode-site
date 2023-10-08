@@ -5,9 +5,9 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    window.location.replace('https://www.better.dev/courses/productive-vs-code');
+    window.location.replace('https://www.better.dev/courses/productive-vs-code'); //
   }, []);
-  
+
   useEffect(() => {
     load("IZCOEGMK", {
       includedDomains: ["productivevscode.com"],

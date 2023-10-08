@@ -9,7 +9,7 @@ export default function GetSamplesForm() {
 
     try {
       trackGoal("GCT1JLIG", 0);
-    } catch (e) {}
+    } catch (e) { }
 
     formEl.current && formEl.current.submit();
   }
@@ -35,7 +35,7 @@ export default function GetSamplesForm() {
           type="email"
           name="fields[email]"
           placeholder="Enter Your Email"
-          autocomplete="email"
+          autoComplete="email"
         />
 
         <input type="hidden" name="ml-submit" value="1" />
